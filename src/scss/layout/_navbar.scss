@@ -1,0 +1,42 @@
+header {
+  .logo {
+    width: 178.906px;
+    height: 50px;
+    margin-left: -17px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 15px;
+    li {
+      color: #fff;
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%; /* 27px */
+    }
+  }
+
+  .btn1 {
+    border-radius: 10px;
+    background: #ffd11a;
+    display: flex;
+    padding: 14px 20px;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+
+
+
+body {
+  background-color: black;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 24px 162px;
+}
